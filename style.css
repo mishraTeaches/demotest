@@ -1,0 +1,37 @@
+.grid{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    grid-auto-rows: 200px;
+    height: 100vh;
+    width: 100vw;
+    grid-gap: 10px;
+    grid-template-areas: 'head head' 
+                        'ads ads'
+                        'images images'
+                        'footer footer'
+}
+
+.header{
+    grid-area: head;
+    background-color: yellow;
+}
+.ads{
+    grid-area: ads;
+    background-color: blue;
+}
+.nice{
+    grid-area: nice;
+    background-color: aliceblue;
+    gap: 20px;
+}
+.images{
+    grid-area: images;
+    background-color: purple;
+}
+.footer{
+    grid-area: footer;
+    background-color: red;
+}
+p:hover{
+    background-color: yellow;
+}

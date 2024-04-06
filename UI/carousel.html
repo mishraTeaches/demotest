@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="carousel.css" />
+  </head>
+  <body>
+    <div class="carouselWrapper">
+      <button class="carouselButton carouselButtonLeft displayNone">
+        <img src="images/left.png" alt="" />
+      </button>
+
+      <div class="carouselContainer">
+        <ul class="carouselTracker">
+          <li class="carouselSlide currentSlide">
+            <img class="carouselImage" src="images/image1.jpeg" alt="" />
+          </li>
+          <li class="carouselSlide">
+            <img class="carouselImage" src="images/image2.jpeg" alt="" />
+          </li>
+          <li class="carouselSlide">
+            <img class="carouselImage" src="images/image3.avif" alt="" />
+          </li>
+        </ul>
+      </div>
+
+      <button class="carouselButton carouselButtonRight">
+        <img src="images/right.png" alt="" />
+      </button>
+
+      <div class="carouselNavigation">
+        <button class="carouselIndicator currentSlide"></button>
+        <button class="carouselIndicator"></button>
+        <button class="carouselIndicator"></button>
+      </div>
+    </div>
+    <script src="carousel.js"></script>
+  </body>
+</html>

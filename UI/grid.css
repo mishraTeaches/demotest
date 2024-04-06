@@ -1,0 +1,70 @@
+.grid_col {
+  display: grid;
+  gap: 10px;
+  /* define the number of grid columns */
+  grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+}
+.col1 {
+  height: 100px;
+  width: 100px;
+  background-color: yellow;
+}
+.col2 {
+  height: 100px;
+  width: 100px;
+  background-color: red;
+}
+.col3 {
+  height: 100px;
+  width: 100px;
+  background-color: yellow;
+}
+.col4 {
+  height: 100px;
+  width: 100px;
+  background-color: red;
+}
+.col5 {
+  height: 100px;
+  width: 100px;
+  background-color: yellow;
+}
+.col6 {
+  height: 100px;
+  width: 100px;
+  background-color: red;
+}
+.col7 {
+  height: 100px;
+  width: 100px;
+  background-color: yellow;
+}
+.col8 {
+  height: 100px;
+  width: 100px;
+  background-color: yellow;
+}
+.col9 {
+  height: 100px;
+  width: 100px;
+  background-color: yellow;
+}
+.col10 {
+  height: 100px;
+  width: 100px;
+  background-color: yellow;
+}
+.col11 {
+  height: 100px;
+  width: 100px;
+  background-color: yellow;
+}
+.col12 {
+  height: 100px;
+  width: 100px;
+  background-color: yellow;
+}
+.parent {
+  height: 100vh;
+  background: cornflowerblue;
+}

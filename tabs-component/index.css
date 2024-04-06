@@ -1,0 +1,14 @@
+[data-tab-content]{
+    display: none;
+}
+.active[data-tab-content]{
+    display: block;
+}
+.tabs{
+    display: flex;
+    justify-content: space-around;
+    list-style-type: none;
+}
+.tab_content{
+    height: 100px;
+}
