@@ -1,8 +1,5 @@
 let count = 0;
-function getData() {
-  console.log(count++);
-}
-
+function getData() {}
 const debounce = (fn, d) => {
   let timer;
   return function () {
@@ -14,3 +11,4 @@ const debounce = (fn, d) => {
 };
 
 const smartMethod = debounce(getData, 300);
+("NOW YOU DID A GOOD JOB");
