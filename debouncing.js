@@ -1,8 +1,5 @@
 let count = 0;
-function getData() {
-  console.log(count++);
-}
-
+function getData() {}
 const debounce = (fn, d) => {
   let timer;
   return function () {
