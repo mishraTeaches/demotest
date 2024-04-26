@@ -11,4 +11,4 @@ const debounce = (fn, d) => {
 };
 
 const smartMethod = debounce(getData, 300);
-hi dear awesome ho to tumoh
+("NOW YOU DID A GOOD JOB");
