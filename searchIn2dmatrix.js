@@ -1,9 +1,3 @@
-const data = [
-  [1, 2, 3, 4],
-  [5, 6, 7, 8],
-  [9, 10, 11, 12],
-];
-
 const searchIn = (arr, target) => {
   let n = arr.length; // HOW MANY ROWS IN 2D.
   let m = arr[0].length; // columns count of 1st row;
@@ -11,7 +5,7 @@ const searchIn = (arr, target) => {
     high = n * m - 1;
 
   while (low <= high) {
-    let mid = (low + high) / 2;
+    let mid = Math.floor((low + high) / 2);
 
     //FIND ROW-INDEX,COL-INDEX as we are trying to convert 2D into 1D , as we can easily search in 1D using BINARY SEARCH.
     const row = Math.floor(mid / m); //(middle-value / column);
@@ -30,6 +24,6 @@ console.log(
       [5, 6, 7, 8],
       [9, 10, 11, 12],
     ],
-    19
+    2
   )
 );

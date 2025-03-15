@@ -1,19 +1,20 @@
 // obj.test2(2).method2().print();
 
-var obj = function () {
-  this.i = 2;
+let computeAmount = function () {
+  let amount = 2;
 
-  this.test2 = function (data) {
-    this.i += data;
+  let add = function (data) {
+    amount += data;
     return this;
   };
-  this.method2 = function () {
-    console.log("method2");
+  let subtract = function (num) {
+    amount -= num;
     return this;
   };
-  this.print = function () {
-    return this.i;
+  let value = function () {
+    return amount;
   };
+  return { add, subtract, value };
 };
 
-console.log(new obj().test2(2).method2().print());
+console.log(computeAmount().add(20).subtract(15).value());
